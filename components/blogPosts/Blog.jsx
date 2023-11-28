@@ -15,7 +15,7 @@ const Blog = async () => {
     } else {
       content = (
         <div className='grid bg-white py-5 px-3 grid-rows-1 lg:grid-cols-4 md:grid-cols-3 h-full sm:grid-cols-2 grid-cols-1 gap-3'>
-          {data.slice(0, 4).map((item) => (
+          {data?.slice(0, 4).map((item) => (
             <div className='border border-background-500 pb-2 shadow-sm' key={item.id}>
               <Link href={`/blog/${item.attributes.slug}`}>
                 <Image
