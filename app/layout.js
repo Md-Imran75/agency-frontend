@@ -7,8 +7,8 @@ import { ToastContainer } from 'react-toastify'
 
 
 export const metadata = {
-  title: 'Web Lagbe',
-  description: 'Best Web Service',
+  title: 'WEB LAGBE',
+  description: 'Where Innovation Meets Imagination',
 }
 
 export default function RootLayout({ children }) {
