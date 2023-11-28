@@ -1,4 +1,19 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    reactStrictMode: true,
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
+    images: {
+      remotePatterns: [
+        // Match all images from res.cloudinary.com
+        {
+          hostname: 'res.cloudinary.com',
+        },
+      ],
+    },
+  };
+  
+  module.exports = nextConfig;
+  
+  
