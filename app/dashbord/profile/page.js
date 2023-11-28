@@ -3,6 +3,7 @@ import React, { useEffect , useState } from 'react'
 import { userData } from '@/utils/Helper'
 import DashbordMain from '@/components/dashbord/DashbordMain'
 import Link from 'next/link'
+import ProtectRoute from '@/utils/ProtectRoute'
 
 const Profile = () => {
     const [name, setName] = useState()
@@ -17,6 +18,7 @@ const Profile = () => {
   
   return (
     <div className='mt-10'>
+      <ProtectRoute>
       <div>
       <div className='xl:block hidden w-1/3'>
             <DashbordMain/>
@@ -28,7 +30,7 @@ const Profile = () => {
           <div className='mt-2 '><Link href={'/meeting'}><button className='px-1 py-1 uppercase bg-secondary-400 text-sm text-white'>Book a meeting</button></Link></div>
       </div>
       </div>
-      
+      </ProtectRoute>
     </div>
   )
 }

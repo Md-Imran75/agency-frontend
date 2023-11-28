@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import DashMeeting from '@/components/dashbord/DashMeeting'
 import { userData } from '@/utils/Helper'
 import getAnything from '@/app/lib/getAnything'
+import ProtectRoute from '@/utils/ProtectRoute'
 
 const Meeting = () => {
   const [meetingInfo, setMeetingInfo] = useState([]);
@@ -28,7 +29,9 @@ const Meeting = () => {
 
   return (
     <div>
+      <ProtectRoute>
       <DashMeeting data={meetingInfo} />
+      </ProtectRoute>
     </div>
   );
 };

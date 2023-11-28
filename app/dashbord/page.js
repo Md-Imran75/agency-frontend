@@ -29,8 +29,9 @@ const Dashbord = () => {
 
 
   return (
+    <ProtectRoute>
     <div className='md:flex-row  overflow-hidden text-black-500 mt-10 flex-col flex'>
-      <ProtectRoute>
+     
       <div className='xl:block hidden w-1/4'>
         <DashbordMain />
       </div>
@@ -60,8 +61,9 @@ const Dashbord = () => {
         </div>
       </div>
 
-      </ProtectRoute>
+      
     </div>
+    </ProtectRoute>
   )
 }
 

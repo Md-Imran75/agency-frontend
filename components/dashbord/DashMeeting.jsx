@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Wrapper from "../wrapper/Wrapper";
+
 import DashbordMain from "./DashbordMain";
+import ProtectRoute from "@/utils/ProtectRoute";
 
 const DashMeeting = ({ data }) => {
     const formatCreatedAt = (createdAt) => {
@@ -20,6 +20,7 @@ const DashMeeting = ({ data }) => {
 
     return (
         <div className="mt-10  text-black-500">
+
             <div className="md:flex-row mt-10 flex-col flex">
                 <div className="xl:block hidden w-1/4">
                     <DashbordMain />
