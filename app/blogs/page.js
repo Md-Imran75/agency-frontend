@@ -1,5 +1,5 @@
-
-import AllBlogs from '@/components/blog/AllBLogs';
+'use client'
+import AllBlogs from "@/components/blog/AllBlogs";
 
 
 const Blogs = () => {
