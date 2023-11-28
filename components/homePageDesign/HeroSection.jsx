@@ -15,8 +15,8 @@ const HeroSection = () => {
         </div>
 
         <div className={`${anton.className} text-[15px] text-center  mt-7`}>
-          <Link href={'/contact'}>
-          <button className='uppercase  bg-primary-500 px-[10px] rounded-md mr-5 text-black-500 py-[5px]'>Contact</button>
+          <Link href={'/about'}>
+          <button className='uppercase  bg-primary-500 px-[10px] rounded-md mr-5 text-black-500 py-[5px]'>About Us</button>
           </Link>
           <Link href={'/meeting'}>
           <button  className='uppercase bg-primary-500 px-[10px] rounded-md text-black-500  py-[5px]'>Book a meeting</button>

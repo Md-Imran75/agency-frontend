@@ -14,12 +14,14 @@ const Footer = () => {
           <div className='grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2'>
             <div className='mx-3'>
                <div>
+               <Link href={'/'}>
                <Image
                 src={'/web lagbe.png'}
                 height={80}
                 width={130}
                 alt='footer logo'
                 />
+               </Link>
                </div>
 
                <div className='mt-2 md:mr-10 text-justify'>
@@ -45,7 +47,7 @@ const Footer = () => {
             <div className='mx-3  gap-2'>
               <div className='uppercase font-bold'>Follow us</div>
               <div className='flex mt-2  md:mt-8 gap-5 text-black-500 text-[25px] flex-row justify-start'>
-              <div className=' '><a href=""><FaFacebook/></a></div>
+              <div className=' '><a href="https://www.facebook.com/weblagbedotcom"><FaFacebook/></a></div>
               <div className=''><a href=""> <IoLogoYoutube/> </a></div>
               </div>
             
