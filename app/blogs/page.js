@@ -7,9 +7,7 @@ const Blogs = () => {
 
   return (
     <div>
-      
       <AllBlogs/>
-    
     </div>
   );
 };

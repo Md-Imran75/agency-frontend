@@ -1,7 +1,7 @@
 
 import { STRAPI_API_TOKEN } from "@/utils/Url";
 import { API_URL } from "@/utils/Url";
-import { resolve } from "styled-jsx/css";
+
 
 
 export default async function getBlogs() {

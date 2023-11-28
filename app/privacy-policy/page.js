@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm';
 const AboutUs = async() => {
   const res = await getAnything('/api/privacy-policy?populate=*')
   const data = await res?.data
-  console.log(data)
+ 
   return (
     <div>
       <Wrapper>

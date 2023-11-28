@@ -1,10 +1,10 @@
 import axios from "axios";
-import { API_URL } from "@/utils/Url";  // Assuming you only need API_URL here
+import { API_URL , POST_ORDER } from "@/utils/Url";  // Assuming you only need API_URL here
 import { STRAPI_API_TOKEN } from "@/utils/Url";
 
 export default async function postOrder(order) {
   try {
-    const apiUrl = `${API_URL}/api/orders`;
+    const apiUrl = `${API_URL}${POST_ORDER}`;
 
     // Assuming you have an authorization token stored somewhere (e.g., in local storage)
     const authToken =STRAPI_API_TOKEN; // Replace with your actual way of getting the token
