@@ -84,7 +84,7 @@ const Meeting = () => {
   return (
 
     <section className="py-10 ">
-      <ProtectRoute>
+      
       <Wrapper>
         <div className={`${anton.className} text-center uppercase text-xl md:text-4xl`}>
           <h2 className="text-secondary-400 text-2xl md:text-4xl uppercase font-medium title-font mb-1">Book a meeting with us</h2>
@@ -173,7 +173,7 @@ const Meeting = () => {
 
         </div>
       </Wrapper>
-      </ProtectRoute>
+      
     </section>
   );
 }
