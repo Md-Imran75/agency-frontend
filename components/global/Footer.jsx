@@ -48,7 +48,7 @@ const Footer = () => {
               <div className='uppercase font-bold'>Follow us</div>
               <div className='flex mt-2  md:mt-8 gap-5 text-black-500 text-[25px] flex-row justify-start'>
               <div className=' '><a href="https://www.facebook.com/weblagbedotcom"><FaFacebook/></a></div>
-              <div className=''><a href=""> <IoLogoYoutube/> </a></div>
+              
               </div>
             
             </div>
